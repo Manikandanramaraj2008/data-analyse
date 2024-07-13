@@ -1,12 +1,6 @@
-R Notebook
-This is an R Markdown Notebook. When you execute code within the notebook, the results appear beneath the code.
-Try executing this chunk by clicking the Run button within the chunk or by placing your cursor inside it and pressing Ctrl+Shift+Enter.
-plot(cars)
- 
-Add a new chunk by clicking the Insert Chunk button on the toolbar or by pressing Ctrl+Alt+I.
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the Preview button or press Ctrl+Shift+K to preview the HTML file).
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike Knit, Preview does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
-sink("notes_youtube11thmay.doc") 
+R Note Book_ practicing the codes basics
+
+sink("notes_youtube11thmay.doc")  
 
 # create and store results on word document  in working directory
 
@@ -59,8 +53,11 @@ citation()
 ## 
 ## We have invested a lot of time and effort in creating R, please cite it
 ## when using it for data analysis. See also 'citation("pkgname")' for
+
 ## citing R packages.
+
 summarise(iris,Species)
+
 ## Warning: Returning more (or less) than 1 row per `summarise()` group was deprecated in
 ## dplyr 1.1.0.
 ## ℹ Please use `reframe()` instead.
@@ -576,6 +573,7 @@ tapply(iris$Sepal.Length,iris$Sepal.Width,max)
 ## 4.1 4.2 4.4 
 ## 5.2 5.5 5.7
 # dplyr data manipulation 
+
 # mutate / summarize
 # select /filter /arrange
 # rename /group_by / etc.....,
