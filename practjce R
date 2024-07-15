@@ -1964,9 +1964,6 @@ iris %>% summarise(mean(Sepal.Length))
 ## 1           5.843333
 getwd()
 ## [1] "C:/Users/maniv/Documents/R practice"
-iris %>% pull(Sepal.Length) %>% mean()
-## [1] 5.843333
-library(tibble)
 
 iris$Sepal.Length %>% mean()
 ## [1] 5.843333
